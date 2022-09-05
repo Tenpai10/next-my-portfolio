@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             </div>
             <div className="p-3 space-y-2">
               <p className="font-courier text-slate-600 text-sm">
-                Technologies I'm familiar with
+                {`Technologies I'm familiar with`}
               </p>
               <div className="flex flex-wrap gap-2 justify-center">
                 {tech.map((item) => (
